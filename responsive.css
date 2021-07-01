@@ -1,0 +1,60 @@
+@media all and (max-width: 768px) {
+	.container {
+		width: 95%;
+	}
+
+	.header-top .logo {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+
+	.header-menu ul {
+		float: none;
+	}
+
+
+
+	.header-menu ul li {
+		float: none;
+		margin-bottom: 5px;
+	}
+	
+	.header-menu ul li a {
+		display: block;
+	}
+
+	.header-top .header-menu {
+	
+	}
+	.col-4 {
+		width: 46%;
+		margin: 0 2%;
+		margin-bottom: 30px;
+	}
+}
+
+
+
+
+
+@media all and (max-width: 600px) {
+	.col-4 {
+		width: 96%;
+		float: none;
+
+	}
+
+	.service-item img {
+		width: auto;
+		height: auto;
+		max-width: 60%;
+	}
+
+	.col-2 {
+		width: 90%;
+		margin-left: 5%;
+		margin-bottom: 20px;
+	}
+}
